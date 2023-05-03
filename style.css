@@ -54,13 +54,13 @@ body{
     /* shadow */
     
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+    border-radius: 15px;
 }
 
 .decrypted-text{
     margin: 32px 32px;
     width: 336px;
-    height: 781px;
+    height: 770px;
     left: 1032px;
     top: 72px;
     
@@ -76,7 +76,7 @@ body{
 }
 
 .button-decrypted{
-    margin: 0 32px;
+    margin: 0px 32px 0 32px;
     width: 336px;
     height: 67px;
 
@@ -85,6 +85,24 @@ body{
     
     border: 1px solid #0A3871;
     border-radius: 24px;
+
+    transition: all 0.5s;
+    font-size: 17px;
+    padding: 1ch 2ch;
+
+    font-family: Roboto, sans-serif;
+    border: none;
+    border-radius: 1.05em;
+    box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
+      4px 4px 0px hsl(0, 0%, 80%),
+      6px 6px 0px hsl(0, 0%, 70%),
+      8px 8px 0px hsl(0, 0%, 60%),
+      10px 10px 0px hsl(0, 0%, 50%),
+      12px 12px 0px hsl(0, 0%, 40%),
+      14px 14px 0px hsl(0, 0%, 30%),
+      16px 16px 0px hsl(0, 0%, 20%),
+      18px 18px 0px hsl(0, 0%, 10%);
+
 }
 
 .button-decrypted:hover {
@@ -92,4 +110,7 @@ body{
     box-shadow: 0 0 20px #6fc5ff50;
     font-size: 1.05em;
     transition: 0.5s;
+
+    color: #fff;
+    box-shadow: none;
   }
