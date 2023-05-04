@@ -24,9 +24,11 @@ body{
 .encrypted-text{
     position: absolute;
     width: 577px;
-    height: 48px;
+    height: 500px;
     left: calc(50% - 577px/2 - 191.5px);
     top: 168px;
+
+    resize: none;
 
     font-family: 'Inter';
     font-style: normal;
@@ -63,6 +65,7 @@ body{
     height: 770px;
     left: 1032px;
     top: 72px;
+    resize: none;
     
     font-family: 'Inter';
     font-style: normal;
