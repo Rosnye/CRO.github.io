@@ -14,21 +14,13 @@
     </head>
 
     <body>
-        <header>
-            
-        </header>
-        
         <main>
             <div>
                 <h1>
                     <img class="logo" src="img/Logo.svg" alt="logo">
                 </h1>
             </div>
-            <div class="rectangle">
-                <textarea class="decrypted-text" placeholder="No se ha encontrado texto..."></textarea>
-                <button class="button-decrypted">Copiar</button>
-            </div>
-            <textarea class="encrypted-text" placeholder="Ingrese texto aqui..."></textarea>
+            <textarea id="encrypted-msg" class="encrypted-text" placeholder="Ingrese texto aqui..."></textarea>
 
             <div class="use-warning"><img class="vector" src="img/Vector.svg" alt="exclamation"> Solo letras minusculas y sin acentos</div>
 
@@ -36,12 +28,12 @@
                 <button class="encrypt-button">Encriptar</button> 
                 <button class="decrypt-button">Desencriptar</button>
             </div>
+
+            <div class="rectangle">
+                <textarea id="decrypted-msg" class="decrypted-text" placeholder="No se ha encontrado texto..."></textarea>
+                <button class="button-decrypted">Copiar</button>
+            </div>
         </main>
-
-        <footer>
-
-        </footer>
-
     </body>
 
 </html>

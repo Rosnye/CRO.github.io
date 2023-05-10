@@ -3,7 +3,7 @@ body{
     width: 1440px;
     height: 1024px;
 
-    background-color: #F3F5FC;
+    background-color: #E5E5E5;
     color: azure;
 }
 
@@ -40,7 +40,8 @@ body{
 
     background: transparent;
 
-    border: none;
+    border: 4px solid rgba(0, 0, 0, 0.08);
+    border-radius: 15px;
 }
 
 .rectangle{
@@ -52,7 +53,7 @@ body{
     
     /* White */
     
-    background: #FFFFFF;
+    background: transparent;
     /* shadow */
     
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -75,11 +76,8 @@ body{
 
     border: none;
 
+    background-color: transparent;
     color: #495057;
-}
-
-.decrypted-text:active{
-    color: #000;
 }
 
 .button-decrypted{
