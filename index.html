@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-
-    <!-- -419 = español latinoamerica  "es" = español españa -->
 <html lang="es-419">
 
     <head>
@@ -20,19 +18,20 @@
                     <img class="logo" src="img/Logo.svg" alt="logo">
                 </h1>
             </div>
-            <textarea id="encrypted-msg" class="encrypted-text" placeholder="Ingrese texto aqui..."></textarea>
+            <textarea id="textarea-origen" class="encrypted-text" placeholder="Ingrese texto aqui..."></textarea>
 
             <div class="use-warning"><img class="vector" src="img/Vector.svg" alt="exclamation"> Solo letras minusculas y sin acentos</div>
 
             <div class="crypt-buttons">
-                <button class="encrypt-button">Encriptar</button> 
-                <button class="decrypt-button">Desencriptar</button>
+                <button class="encrypt-button" id="encriptar">Encriptar</button> 
+                <button class="decrypt-button" id="desencriptar">Desencriptar</button>
             </div>
 
             <div class="rectangle">
-                <textarea id="decrypted-msg" class="decrypted-text" placeholder="No se ha encontrado texto..."></textarea>
+                <textarea id="textarea-destino" class="decrypted-text" placeholder="No se ha encontrado texto..."></textarea>
                 <button class="button-decrypted">Copiar</button>
             </div>
+            <script src="script.js"></script>
         </main>
     </body>
 
