@@ -1,7 +1,3 @@
-/*Aquí tienes un ejemplo de cómo un desarrollador senior podría escribir un código JavaScript para cumplir con los requisitos que mencionaste. 
-Asegúrate de tener un archivo HTML con dos elementos <textarea> y dos botones, uno con el id "encriptar" y otro con el id "desencriptar". 
-Luego, crea un archivo JavaScript aparte y enlázalo con tu HTML.*/
-
 // Función para encriptar el texto
 function encriptarTexto() {
 // Obtener el texto del textarea de origen
