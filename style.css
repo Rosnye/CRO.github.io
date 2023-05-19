@@ -1,11 +1,11 @@
 body{
-    background-color: #131313;
+  background-color: #131313;
 }
 
 main{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .version{
@@ -16,13 +16,13 @@ main{
 }
 
 .logo{
-    margin: 40px;
-    width: 120px;
-    height: 48px;
-    left: 48px;
-    top: 40px;
-    background-color: rgba(30, 30, 30, 0.5);
-    border-radius: 10px;
+  margin: 40px;
+  width: 120px;
+  height: 48px;
+  left: 48px;
+  top: 40px;
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 10px;
 }
 
 section{
@@ -36,23 +36,23 @@ section{
 }
 
 .encrypted-text{
-    width: 577px;
-    height: 500px;
-    padding: 10px;
+  width: 577px;
+  height: 500px;
+  padding: 10px;
 
-    resize: none;
+  resize: none;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 30px;
-    line-height: 150%;
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 150%;
 
-    color: #FFF;
+  color: #FFF;
 
-    background: transparent;
+  background: transparent;
 
-    border: 2px solid #000;
-    border-radius: 15px;
+  border: 2px solid #000;
+  border-radius: 15px;
 }
 
 .rectangle{
@@ -70,62 +70,62 @@ section{
 }
 
 .decrypted-text{
-    width: 83%;
-    height: 500px;
+  width: 83%;
+  height: 500px;
 
-    resize: none;
-    padding: 10px;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-size: 30px;
-    line-height: 150%;
+  resize: none;
+  padding: 10px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 150%;
 
-    border: 2px solid #000;
-    border-radius: 15px;
+  border: 2px solid #000;
+  border-radius: 15px;
 
-    background-color: transparent;
-    color: #FFF;
+  background-color: transparent;
+  color: #FFF;
 }
 
 .button-decrypted{
-    margin: 0px 32px 0 32px;
-    width: 336px;
-    height: 67px;
+  margin: 0px 32px 0 32px;
+  width: 336px;
+  height: 67px;
 
-    font-size: 18px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
 
-    color: #0A3871;
-    background-color: #86868B;
-    
-    border: 2px solid #0A3871;
-    border-radius: 24px;
+  color: #0A3871;
+  background-color: #86868B;
+  
+  border: 2px solid #0A3871;
+  border-radius: 24px;
 
-    transition: all 0.5s;
-    padding: 1ch 2ch;
+  transition: all 0.5s;
+  padding: 1ch 2ch;
 
-    font-family: Roboto, sans-serif;
-    border-radius: 1.05em;
-    box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
-      4px 4px 0px hsl(0, 0%, 80%),
-      6px 6px 0px hsl(0, 0%, 70%),
-      8px 8px 0px hsl(0, 0%, 60%),
-      10px 10px 0px hsl(0, 0%, 50%),
-      12px 12px 0px hsl(0, 0%, 40%),
-      14px 14px 0px hsl(0, 0%, 30%),
-      16px 16px 0px hsl(0, 0%, 20%),
-      18px 18px 0px hsl(0, 0%, 10%);
+  font-family: Roboto, sans-serif;
+  border-radius: 1.05em;
+  box-shadow: 2px 2px 0px hsl(0, 0%, 90%),
+    4px 4px 0px hsl(0, 0%, 80%),
+    6px 6px 0px hsl(0, 0%, 70%),
+    8px 8px 0px hsl(0, 0%, 60%),
+    10px 10px 0px hsl(0, 0%, 50%),
+    12px 12px 0px hsl(0, 0%, 40%),
+    14px 14px 0px hsl(0, 0%, 30%),
+    16px 16px 0px hsl(0, 0%, 20%),
+    18px 18px 0px hsl(0, 0%, 10%);
 
 }
 
 .button-decrypted:hover {
-    box-shadow: 0 0 20px #6fc5ff50;
-    transition: 0.5s;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transition: 0.5s;
 
-    box-shadow: none;
+  box-shadow: none;
 }
 
 .use-warning{
@@ -197,7 +197,8 @@ section{
 footer{
   text-align: center;
   padding: 40px;
-  background-color: #131313;
+  background-color: #000;
   color: #FFF;
   font-size: 25px;
+  margin-top: 40px;
 }
