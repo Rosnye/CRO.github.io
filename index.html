@@ -12,34 +12,47 @@
     </head>
 
     <body>
-        <main>
+
+        <header>
             <div>
                 <h1>
                     <img class="logo" src="img/Logo.svg" alt="logo">
                 </h1>
             </div>
-            <textarea id="textarea-origen" class="encrypted-text" placeholder="Ingrese texto aqui..."></textarea>
+        </header>
 
-            <div class="use-warning"><img class="vector" src="img/Vector.svg" alt="exclamation"> Solo letras minusculas y sin acentos</div>
+        <main>
 
-            <div class="crypt-buttons">
-                <button class="encrypt-button" id="encriptar">Encriptar</button> 
-                <button class="decrypt-button" id="desencriptar">Desencriptar</button>
-            </div>
+            <section class="encrypt">
+                <div>
+                    <textarea id="textarea-origen" class="encrypted-text" placeholder="Ingrese texto aqui..."></textarea>
+                </div>
 
-            <div class="rectangle">
-                <textarea id="textarea-destino" class="decrypted-text" placeholder="No se ha encontrado texto...
+                <div class="use-warning"><img class="vector" src="img/Vector.svg" alt="exclamation"> Solo letras minusculas y sin acentos</div>
+
+                <div class="crypt-buttons">
+                    <button class="encrypt-button" id="encriptar">Encriptar</button> 
+                    <button class="decrypt-button" id="desencriptar">Desencriptar</button>
+                </div>
+
+            </section>
+                
+            <section>
+                <div class="rectangle">
+                    <textarea id="textarea-destino" class="decrypted-text" placeholder="No se ha encontrado texto...
 
 Para desencriptar un texto, introducirlo en este espacio"></textarea>
-                <button class="button-decrypted">Copiar</button>
-            </div>
-            <script src="script.js"></script>
-            <div>
-                <p>Developed by David Fletes</p>
-            </div>
+                    <button class="button-decrypted">Copiar</button>
+                </div>
+            </section>
+
+                <script src="script.js"></script>
+            
         </main>
 
-        
+        <footer>
+            <p>&copy Developed by David Fletes</p>
+        </footer>
     </body>
 
 </html>
